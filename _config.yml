@@ -18,7 +18,7 @@ email: your-email@example.com (will update with business email soon)
 description: >- # this means to ignore newlines until "baseurl:"
   Currently heavily WIP, will update and fix soon
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maxgilbreath.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MaxwellGilbrea1
 github_username:  MaxGilbreath
 
