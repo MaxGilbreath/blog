@@ -3,8 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+Hello! My name is Maxwell Gilbreath, and I am a CSCI Undergrad at Hendrix. This blog will primarily be for my 340 Database and Websystems class to begin with, but I will contiue to update it with projects/pertinenate information after the class has concluded.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm using the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
