@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Edits Post"
+title:  "New Template (Lab 4)"
 date:   2021-09-17 21:10:41 -0500
 author: Maxwell Gilbreath
 categories: Site Changes
