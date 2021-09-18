@@ -11,7 +11,7 @@ While I now have some familiarity with editing this blogging site with jekyll, h
 
 
 While I have some links up on the main page (yay!) the following still need to be incorporated:
-Facebook: https://www.facebook.com/Max.Gilbr
+Linkedin: https://www.linkedin.com/in/maxgilbreath/
 Personal Site: https://maxgilbreath.github.io/
 
 
