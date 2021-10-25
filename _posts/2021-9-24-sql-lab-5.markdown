@@ -6,7 +6,11 @@ author: Maxwell Gilbreath
 categories: Labs
 ---
 To properly model the web application, I made some assumptions on how it could be implemented. I added attributeds to not only the customer accounts, items, and orders, but also to the finalized and placed order. This is to provide a degree of separation between orders-in-progress and placed orders, as to allow for easier modification of orders while adhering to the constraint of not allowing customers to change orders after they have been placed.<br>
+
 ![Store_Chart.png](https://maxgilbreath.github.io/blog/images/Store_Chart.png)<br>
+
 The above chart shows a more conceptual view of how the web app could be implemented. The separation between entities is easily shown here, as well as the potential utility of a separate finalized order entity.<br>
+
 ![Store_DB-2021-09-25_05-13.png](https://maxgilbreath.github.io/blog/images/Store_DB-2021-09-25_05-13.png)<br>
+
 Next, in modeling the web app in a more database-oriented format, I made the decision to drop the 'finalize' entity. It seemed unecessary in that it could branch directly off of the select entity. Otherwise, the main idea is still unchanged, keeping all other entities. There could be some issues in instrucitons and subtitutions, given the character limit. There is also potential issues in the connection between the select and the placed order entities, as the lack of a 'middleman' entity allows for issues in the select structure to negatively impact the placed order entity. It would have also been better to connect the account and placed order entities, to allow for an easier method of searching and keeping track of orders made by a customer's account.
